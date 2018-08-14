@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<block>
+  <name>Phasediff Carriersync</name>
+  <key>samplewise_phasediff_carriersync_phasediff_carriersync</key>
+  <category>[samplewise_phasediff_carriersync]</category>
+  <import>import samplewise_phasediff_carriersync</import>
+  <make>samplewise_phasediff_carriersync.phasediff_carriersync($alpha, $phasediff, $phase)</make>
+	<callback>set_alpha($alpha)</callback>
+	<callback>set_carrierfreq($phasediff)</callback>
+	<callback>set_phase($phase)</callback>
+	
+  
+  <param>
+    <name>Alpha</name>
+    <key>alpha</key>
+    <value>1e-3</value>
+    <type>float</type>
+  </param>
+  
+  <param>
+    <name>Initial Frequency[Radian]</name>
+    <key>phasediff</key>
+    <value>0</value>
+    <type>float</type>
+  </param>
+  
+  <param>
+    <name>Initial phase</name>
+    <key>phase</key>
+    <value>0</value>
+    <type>float</type>
+  </param>
+
+  
+  
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

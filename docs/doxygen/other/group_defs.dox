@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio SAMPLEWISE_PHASEDIFF_CARRIERSYNC C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the SAMPLEWISE_PHASEDIFF_CARRIERSYNC GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+
